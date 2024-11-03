@@ -8,21 +8,21 @@ data class Page(
     val description: String,
     @DrawableRes val image:Int
 )
-val pages= listOf(
+val pages = listOf<Page>(
     Page(
-        title="page 1",
-        description = "1",
-        image= R.drawable.onboarding1
-    ), Page(
-        title="2",
-        description = "2",
-        image=R.drawable.onboarding1
+        "Lorem ipsum is simply dummy",
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry",
+        R.drawable.onboarding1
     ),
     Page(
-        title="3",
-        description = "3",
-        image=R.drawable.onboarding1
-    )
-
+        "Lorem ipsum is simply dummy",
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry",
+        R.drawable.onboarding2
+    ),
+    Page(
+        "Lorem ipsum is simply dummy",
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry",
+        R.drawable.onboarding3
+    ),
 )
 
